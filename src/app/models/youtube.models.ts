@@ -26,7 +26,7 @@ export interface Video {
     channelTitle:           ChannelTitle;
     playlistID:             PlaylistID;
     position:               number;
-    resourceID:             ResourceID;
+    resourceId:             ResourceId;
     videoOwnerChannelTitle: ChannelTitle;
     videoOwnerChannelID:    ChannelID;
 }
@@ -43,9 +43,9 @@ export enum PlaylistID {
     UUuaPTYj15JSkETGnEseaFFg = "UUuaPTYj15JSkETGnEseaFFg",
 }
 
-export interface ResourceID {
+export interface ResourceId {
     kind:    ResourceIDKind;
-    videoID: string;
+    videoId: string;
 }
 
 export enum ResourceIDKind {
